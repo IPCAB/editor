@@ -48,15 +48,15 @@ const echartsConf = {
 
 const echartsDemoJsonStr = JSON.stringify(echartsConf, null, 2)
 
-export default `# 欢迎使用 \`Arya\` 在线 Markdown 编辑器
+export default `# 欢迎使用 \`DATAVOTO Editor\` 在线 Markdown 编辑器
 
-[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn)，是一款基于 \`Vue\`、\`Vditor\`，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。
+[DVEditor](https://editor.data.voto/)，是一款基于 \`Vue\`、\`Vditor\`、\`Arya\`，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。
 
 ---
 
 ## 如何使用
 
-**微注**：清空目前这份默认文档，即处于可使用态。[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn) 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，**绝不窥测用户个人隐私，可放心使用**；Github 源码：[markdown-online-editor](https://github.com/nicejade/markdown-online-editor)，部分功能仍在开发🚧，敬请期待。
+**微注**：清空目前这份默认文档，即处于可使用态。DVEditor另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，**绝不窥测用户个人隐私，可放心使用**；Github 源码：[markdown-online-editor](https://github.com/nicejade/markdown-online-editor)，部分功能仍在开发🚧，敬请期待。
 
 默认为[所见即所得](https://hacpai.com/article/1577370404903?utm_source=github.com)模式，可通过 \`⌘-⇧-M\`（\`Ctrl-⇧-M\`）进行切换；或通过以下方式：
 - 所见即所得：\`⌘-⌥-7\`（\`Ctrl-alt-7\`）；
@@ -72,7 +72,7 @@ export default `# 欢迎使用 \`Arya\` 在线 Markdown 编辑器
 
 ## 什么是 Markdown
 
-[Markdown](https://nicelinks.site/tags/Markdown/?utm_source=markdown.lovejade.cn) 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号，以最小的输入代价，生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体**、*斜体* 或者[超文本链接](https://vue-cli3.lovejade.cn/explore/)，更棒的是，它还可以：
+[Markdown](https://nicelinks.site/tags/Markdown/) 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号，以最小的输入代价，生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体**、*斜体* 或者[超文本链接](https://vue-cli3.lovejade.cn/explore/)，更棒的是，它还可以：
 
 ---
 
@@ -169,9 +169,8 @@ ${echartsDemoJsonStr}
 
 | 作品名称        | 在线地址   |  上线日期  |
 | :--------  | :-----  | :----:  |
-| 倾城之链 | [https://nicelinks.site](https://nicelinks.site/??utm_source=markdown.lovejade.cn) |2017-09-20|
-| 晚晴幽草轩 | [https://jeffjade.com](https://jeffjade.com/??utm_source=markdown.lovejade.cn) |2014-09-20|
-| 静轩之别苑 | [http://quickapp.lovejade.cn](http://quickapp.lovejade.cn/??utm_source=markdown.lovejade.cn) |2019-01-12|
+| DATAVOTO | [https://data.voto](https://data.voto) |2019-12-20|
+| Google | [https://google.com](https://https://google.com/) |2014-09-20|
 
 ### 9. 更详细语法说明
 
@@ -179,5 +178,5 @@ ${echartsDemoJsonStr}
 
 总而言之，不同于其它*所见即所得*的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。**Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。** 目前它已经成为世界上最大的技术分享网站 \`GitHub\` 和 技术问答网站 \`StackOverFlow\` 的御用书写格式，而且越发流行，正在在向各行业渗透。
 
-最新更新于 2019.08.21
+最新更新于 2024.08.14
 `
